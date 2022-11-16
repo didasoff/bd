@@ -1,0 +1,140 @@
+@import url('https://cdn.staticaly.com/gh/sh4hids/bangla-web-fonts/9baee0fc23e77fe957c0b70fe49d81d2cbbe87d6/boshonto/stylesheet.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Boshonto', sans-serif;
+}
+
+.hero {
+    top: 0px;
+}
+
+.hero .img {
+    background-image: url(img/hero3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.hero .img .sub-heading {
+    font-size: 30px;
+    color: #dddddd;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.hero .img .heading {
+    font-size: 100px;
+    color: #dddddd;
+    text-align: center;
+}
+
+.hero .img .heading b {
+    color: #323d4e;
+}
+
+.hero .img .btn {
+    display: block;
+    width: fit-content;
+    padding: 10px 30px;
+    margin: auto;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #dddddd;
+    background-color: #c54141;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero .img .btn:hover {
+    background-color: #8d2e2e;
+    color: #dddddd;
+}
+
+.hero .img .btn i {
+    margin-right: 10px;
+}
+
+.list-districts {
+    margin-bottom: 80px;
+}
+
+.list-districts .title {
+    margin: 80px 0px 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #323d4e;
+}
+
+.list-districts .title b {
+    color: #c54141;
+}
+
+.list-districts .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px 5px;
+    grid-template-areas: ". . . .";
+    padding: 0px 30px;
+}
+
+.list-districts .container a {
+    display: block;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.list-districts .container a:hover {
+    box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.25);
+}
+
+.list-districts .container a div {
+    background: linear-gradient(180deg, rgba(221, 221, 221, 0) 0%, rgba(0, 0, 0, 0) 0.01%, #1E2531 100%, rgba(0, 0, 0, 0.7) 100%);
+    height: 100%;
+}
+
+.list-districts .container a div p {
+    color: #dddddd;
+    text-align: center;
+    font-size: 30px;
+    padding: 320px 10px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.list-districts .container a div p:hover {
+    color: #c54141;
+    font-size: 35px;
+    padding-top: 300px;
+}
+
+footer {
+    padding: 10px 20px;
+    background-color: #1E2531;
+}
+
+footer p {
+    text-align: center;
+    font-size: 18px;
+    color: #dddddd;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #c54141;
+    transition: all 0.3s ease-in-out;
+}
+
+footer p a:hover {
+    color: #8d2e2e;
+}
